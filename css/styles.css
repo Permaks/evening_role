@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 /* down work */
 
-.fon-body{
+.body{
   background-image: url(../image/dice-fon.jpg);
   background-repeat: repeat;
   background-size: cover;
@@ -46,19 +46,56 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 
 .hader-main{
-  display: flex;
   max-width: 1300px;
+  height: 100px;
+  padding: 5px 5px;
   margin: 0 auto;
   border: 1px solid #000;
   background-color: white;
+  position: relative;
+}
+.size-logo{
+  width: 60px;
+}
+.game-site{
+  position: absolute;
+  top: 30px;
+  left: 600px;
+}
+.name-site{
+  position: absolute;
+  top: 40px;
+  left: 80px;
+}
+.navigation{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.nav-main{
+
+}
+.nav-news{
+
+}
+.nav-galery{
+
+}
+.nav-for-us{
+
+}
+.nav-search{
+
+}
+.nav-profil{
+  
 }
 
 
 
 
-
 .main{
-  display: flex;
+
   max-width: 1300px;
   height: 900px;
   margin: 0 auto;
@@ -79,13 +116,14 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 
 .sidebar{
+  position: relative;
+  left: 85%;
+  bottom: 340px;
+  padding: 50px 0px 0px 10px;
+  max-width: 15%;
   border: 1px solid #000;
-  max-width: 20%;
 }
 
-.size-logo{
-  max-width: 60px;
-}
 .size-facebook{
   max-width: 23px;
 }
@@ -111,8 +149,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 .footer-main{
   position: relative;
-  top: 5px;
-  max-height: 95px;
+  max-height: 80px;
   max-width: 1300px;
   margin: 0 auto;
   padding: 5px 5px;
@@ -121,15 +158,14 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 
 .contact{
-  position: relative;
-  bottom: 55px;
-  left: 80px;
+  position: absolute;
+  bottom: 28px;
+  left: 150px;
 }
 
 .sponsors{
-  position: relative;
-  bottom: 80px;
-  left: 1000px;
+  position: absolute;
+  bottom: 50px;
+  left: 400px;
+  border: 1px solid #000;
 }
-
-
