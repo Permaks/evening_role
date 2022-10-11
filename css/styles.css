@@ -1,3 +1,6 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -54,41 +57,88 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
   background-color: white;
   position: relative;
 }
+
+/* header */
 .size-logo{
   width: 60px;
 }
 .game-site{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
   position: absolute;
   top: 30px;
   left: 600px;
 }
 .name-site{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-size: 50px;
   position: absolute;
-  top: 40px;
+  top: 5px;
   left: 80px;
 }
+
+/* navigation panel */
 .navigation{
   position: absolute;
   bottom: 10px;
   left: 10px;
+  /* border: 1px solid #000; */
+  width: 1280px;
+}
+.nav1{
+  border: 1px solid #000;
+  position: absolute;
+  bottom: -8px;
+  width: 1090px;
+  height: 25px;
+  padding: ;
+}
+.nav2{
+
 }
 .nav-main{
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  min-width: 50px;
 }
 .nav-news{
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  min-width: 50px;
 }
 .nav-galery{
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  min-width: 50px;
 }
 .nav-for-us{
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  min-width: 50px;
 }
 .nav-search{
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  min-width: 50px;
+  position: absolute;
+  bottom: 0%;
+  right: 80px;
 }
 .nav-profil{
-  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  color: whitesmoke;
+  min-width: 50px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
 
 
